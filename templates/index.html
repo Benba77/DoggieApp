@@ -1,0 +1,21 @@
+
+<h1> Köpek-App </h1>
+
+<h2> Random Köpek anzeigen (& in DB speichern) </h2>
+<button id="buttonKöpek" style="margin:20"> get random 🐶 </button>
+<br>
+<img id="imgKöpek" style="max-height: 33%; min-height: 33%;">
+<p id="pKöpek"></p>
+
+
+<a href="{{ url_for('all_dogs')  }}"> alle Hundis </a>
+
+
+<script> 
+    var baseUrl = "{{  baseUrl  }}"
+</script>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+

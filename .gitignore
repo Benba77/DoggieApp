@@ -1,0 +1,11 @@
+.venv/
+.vscode/
+__*
+köpek.db
+sb.ipynb
+specs.md
+sandbox.js
+
+
+abc*/
+
